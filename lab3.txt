@@ -1,0 +1,7 @@
+Question 1: What is the link to your github repository for this lab?
+https://github.com/maraf-dev/404lab3Django
+
+Question 2: After starting a brand new Django application and running the runserver command, what does the browser show you?
+a “Congratulations!” page, with a rocket taking off. 
+
+
