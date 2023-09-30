@@ -7,5 +7,10 @@ a “Congratulations!” page, with a rocket taking off.
 Question 3: After creating the first view within polls, what does the browser show you when navigating to / and to /polls respectively?
 navigating to / shows a page not found, but navigating to /polls shows the 'Hello, world. You're at the polls index.' message
 
+Question 4: What is a Django migration and why do we need them?
+A migration is a file that contains instructions for django to modify the database scheme, 
+and we need them to reflect the models' changes on the database
+
+
 
 
