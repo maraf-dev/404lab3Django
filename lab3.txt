@@ -11,6 +11,12 @@ Question 4: What is a Django migration and why do we need them?
 A migration is a file that contains instructions for django to modify the database scheme, 
 and we need them to reflect the models' changes on the database
 
+Question 5: What do you see after you log into the Django adminstration site? From a high levle, how do you get custom models to appear in the Django admin page?
+I see the authorized groups and users, and the dataset of choice and question tables. 
+To see the custom models in the admin page, we need to register the models in the admin.py file.
+
+
+
 
 
 
