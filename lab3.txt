@@ -22,6 +22,8 @@ How would you modify the urls.py file to allow arbitrary alphabetic characters?
 /polls/38/vote: You're voting on question 38. using a string gives a page not found error. we can modify the url to allow string input 
 by using path('<str:question_id>/', views.detail, name='detail'), instead.
 
+Question 7: Why is it a bad idea to hardcode urls into the templates?
+because we would have to change it in every template that uses it if we ever want to change it.
 
 
 
