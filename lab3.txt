@@ -4,4 +4,8 @@ https://github.com/maraf-dev/404lab3Django
 Question 2: After starting a brand new Django application and running the runserver command, what does the browser show you?
 a “Congratulations!” page, with a rocket taking off. 
 
+Question 3: After creating the first view within polls, what does the browser show you when navigating to / and to /polls respectively?
+navigating to / shows a page not found, but navigating to /polls shows the 'Hello, world. You're at the polls index.' message
+
+
 
