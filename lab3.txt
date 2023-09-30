@@ -15,6 +15,12 @@ Question 5: What do you see after you log into the Django adminstration site? Fr
 I see the authorized groups and users, and the dataset of choice and question tables. 
 To see the custom models in the admin page, we need to register the models in the admin.py file.
 
+Question 6: What do you see when you go to /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? 
+What happens when you don’t put a number, and instead use a string? 
+How would you modify the urls.py file to allow arbitrary alphabetic characters?
+/polls/38/: You're looking at question 38. /polls/38/results: You're looking at the results of question 38. 
+/polls/38/vote: You're voting on question 38. using a string gives a page not found error. we can modify the url to allow string input 
+by using path('<str:question_id>/', views.detail, name='detail'), instead.
 
 
 
